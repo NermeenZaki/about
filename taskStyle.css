@@ -1,9 +1,11 @@
 *{
     margin: 0;
     padding: 0;
+    text-decoration: none;
+  
 }
 #menuHeader{
-position: absolute;
+position: fixed;
 width: 100%;
 height: 120px;
 top: 0;
@@ -27,10 +29,9 @@ border-top: 5px solid #ec1d25;
   transform: translateX(2.5%);
   padding-left: 20px;
   height: 15%;
- 
-}
+  
+} 
 #menuItems{
-  color: white;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -41,7 +42,6 @@ border-top: 5px solid #ec1d25;
   padding: 15px;
   text-decoration: none;
   background-color: transparent;
-
 }
 #socialLinks{
   display: flex;
@@ -126,11 +126,13 @@ border-top: 5px solid #ec1d25;
 
 /*sectionVideo*/
 #parallax{
-  width: 100%;height: 600px;
+  width: 100%;
+  height: 600px;
   margin: 0 auto;
   background-image: url(img/header-menu-01.jpg);
   background-size: cover;
   background-attachment: fixed;
+
 }
 #parallax, #playbutton{
   display: flex;
@@ -590,9 +592,7 @@ align-content: center;
       margin-right: 20px;
       margin-bottom: 20px;
       margin-left: 50px;
- 
     } 
- 
     #container2{
     background-color: rgba(0, 0, 0, 0.932);
     height: 60px;
